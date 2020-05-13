@@ -1,10 +1,11 @@
 <template>
     <div>
         <h3>Todos</h3>
+        <h1>Todo List</h1>
         <div class="todos">
             <div v-for="todo in allTodos" :key="todo.id" class="todo">
                 {{ todo.title }}
-            </div>
+            </div>  
         </div>
     </div>
 </template>

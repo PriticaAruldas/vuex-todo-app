@@ -6,6 +6,7 @@
                 <input type="text" v-model="title" placeholder="Add Todos..">
                 <input type="submit" value="Submit">        
             </form>    
+            <h1>Hi from smart girl</h1>
         </div>
         
     </div>
